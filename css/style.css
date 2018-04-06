@@ -1,0 +1,78 @@
+/*
+# ------------------------------------------------------------------------
+# Vina Articles Accordion for Joomla 3
+# ------------------------------------------------------------------------
+# Copyright(C) 2014 www.VinaGecko.com. All Rights Reserved.
+# @license http://www.gnu.org/licenseses/gpl-3.0.html GNU/GPL
+# Author: VinaGecko.com
+# Websites: http://vinagecko.com
+# Forum: http://vinagecko.com/forum/
+# ------------------------------------------------------------------------
+*/
+
+.vina-accordion-content .accordion-open span,
+.vina-accordion-content .accordion-close span {
+	display: block;
+    float: right;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.vina-accordion-content .accordion-open span {
+	background: url(/web/20171027035947im_/http://www.motoringclub.com/modules/mod_vina_accordion_content/assets/images/minus.png) center center no-repeat;
+}
+.vina-accordion-content .accordion-close span {
+	background: url(/web/20171027035947im_/http://www.motoringclub.com/modules/mod_vina_accordion_content/assets/images/plus.png) center center no-repeat;
+}
+.vina-accordion-content h3.title {
+	margin: 0 0 5px;
+}
+.vina-accordion-content .info {
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.vina-accordion-content  .introtext {
+	margin-bottom: 5px;
+}
+.vina-accordion-content .content ul li {
+	list-style-position: inside;
+	line-height: 25px;
+}
+.vina-accordion-content .vina-accordion-item {
+	margin: 0;
+	padding: 10px;
+	height: auto;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	line-height: 20px;
+}
+.vina-accordion-content .vina-accordion-item div.title {
+	margin-right: 30px;
+}
+.vina-accordion-content .vina-accordion-container {
+	margin: 0;
+}
+/*
+     FILE ARCHIVED ON 03:59:47 Oct 27, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:58:06 Apr 06, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 1433.314 (3)
+  esindex: 0.017
+  captures_list: 1456.559
+  CDXLines.iter: 15.99 (3)
+  PetaboxLoader3.datanode: 197.104 (4)
+  exclusion.robots: 0.446
+  exclusion.robots.policy: 0.385
+  RedisCDXSource: 1.852
+  PetaboxLoader3.resolve: 446.928
+  load_resource: 566.196
+*/

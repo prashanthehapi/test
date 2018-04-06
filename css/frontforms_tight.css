@@ -1,0 +1,135 @@
+/*
+ * ChronoCMS (chronocms.com)
+ * Copyright 2010 - chronocms.com
+ * license : Commercial
+ * Redistributions of files must retain the above copyright notice.
+ */
+/*================   FORMS STYLES   =================*/
+
+.ccms_form_element p { margin-bottom: 9px;}
+.ccms_form_element input, textarea, input[type="file"]  {padding: 4px ;  border: 1px solid #d3d3d3; margin-bottom: 3px; }
+.ccms_form_element select { padding: 3px; border: 1px solid #d3d3d3; min-width: 100px;}
+/*.ccms_form_element select { min-width: 163px; }*/
+.ccms_form_element label { float: left; width: 100%; line-height: 18px; margin: 3px 0 6px ; font-weight: bold;}
+.ccms_form_element fieldset  {
+background-color:#FAFAFA;
+border:1px solid #EEEEEE;
+padding:15px;
+width:auto; }
+.ccms_form_element fieldset legend {font-weight:bold; margin-left:-10px; padding:10px; }
+div#id1_container_div,div#message1_container_div{width: 100%;}
+.ccms_form_element {margin-bottom: 2px;position: relative;padding: 1px 0px 1px 5px;float: left;width: 32%;}
+div#contact_from {float: left;width: 100%;margin-top: 30px; margin-left:1%;}
+/*.cfdiv_select select,
+.cfdiv_text input, .cfdiv_text label { float: left; }*/
+.cfdiv_text label { width: 150px; }
+
+
+.small-message, .error-message { line-height: 18px; margin: 0; font-size: 11px; display: block; clear: both;}
+.small-message { color: #999999; font-style: italic; }
+.error-message { color: red;}
+.required input { border-color: #cccccc; background-color: #f9f9f9;}
+.form-error { }
+
+
+.tooltipimg { position: absolute; top: 5px; right: 10px; line-height: 21px;  color: #999999; }
+.tooltipimg a {display: inline-block; font-weight: bold; color: #999999; line-height: 21px; height: 20px; background-color: #eeeeee; width: 20px; text-align: center;}
+.tooltipimg a:hover { color: white; text-decoration: none;}
+
+
+.cfdiv_checkboxgroup label, .cfdiv_radiogroup label, 
+.cfdiv_checkbox label, .cfdiv_radio label { font-weight: normal; /*margin-bottom: 5px;*/margin: 6px 0 9px; }
+.full_label {width: 70% !important;}
+.cfdiv_checkboxgroup label:first-child, .cfdiv_radiogroup label:first-child, 
+.cfdiv_checkbox label:first-child , 
+.cfdiv_radio label:first-child, 
+.cfdiv_checkbox label:first-child,
+.cfdiv_checkboxgroup label:first-child { font-weight: bold !important; margin-bottom: 9px;}
+
+.ccms_form_element .button { 
+background: #333;border: none;color: #fff;font-size: 15px;padding: 5px 22px;margin-top: 26px;
+} div#chrono_verification1_container_div input {width: 60%;float: left;}
+  div#chrono_verification1_container_div img {margin: 17px 0 0 10px;}
+.ccms_form_element .button:hover {
+ 	}
+.contact_address {float: left;}
+
+/* input sizes */
+.small_input { width: 200px !important;}
+.medium_input { width: 350px !important; }
+.big_input, .title_input { width:475px !important; }
+.title_input { padding: 8px 5px; font-size: 18px; margin-bottom: 15px; float: left !important;}
+
+
+/* input types */
+.ccms_form_element input[type="checkbox"], 
+/*.ccms_form_element input[type="radio"] { border-color: transparent; margin: 8px 9px 0 0; clear: none; }*/
+.ccms_form_element input[type="radio"] { padding: 0 0 0 0 !important; background-color: transparent; border-color: transparent; margin: 10px 5px 10px 5px; clear: none; }
+
+/* fixes for radio and checkboxes*/
+.cfdiv_checkboxgroup label, .cfdiv_radio label { width: auto; margin-right: 25px;  }
+.cfdiv_checkboxgroup label:first-child, .cfdiv_radio label:first-child { width: 150px; margin-right: 0;}
+.cfdiv_checkboxgroup label, .cfdiv_radio label,
+.cfdiv_checkboxgroup input, .cfdiv_radio input { float: left; }
+
+.label_right{float: left; margin-left: 150px !important;}
+
+
+.label_over label:first-child { float: none !important;  }
+.label_over label:first-child { display: block; width:95% !important; }
+.label_over .small-message, .label_over .error-message {  margin-left: 0;}
+
+.radios_over label, .radios_over input {
+    float: left !important;
+}
+.radios_over input {
+    clear: left !important;
+}
+
+/* other fixes */
+.fc-tbx{
+	z-index:9999;
+}
+.validation_label{
+	display:block;
+	width:100%;
+}
+.chrono_captcha_input{
+	vertical-align:top;
+}
+
+/*.clear{
+	clear:both;
+	visibility:hidden;
+}*/
+
+.clear:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.multiline_start{ /*clear:none !important;*/ float: left !important;}
+.multiline_add{	clear:none !important; float: left !important; padding-left: 10px !important; }
+/*
+     FILE ARCHIVED ON 04:01:07 Oct 27, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:58:07 Apr 06, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 138.717 (3)
+  esindex: 0.008
+  captures_list: 158.671
+  CDXLines.iter: 14.216 (3)
+  PetaboxLoader3.datanode: 134.667 (4)
+  exclusion.robots: 0.296
+  exclusion.robots.policy: 0.252
+  RedisCDXSource: 1.898
+  PetaboxLoader3.resolve: 56.294
+  load_resource: 87.806
+*/
